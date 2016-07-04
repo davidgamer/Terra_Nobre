@@ -15,18 +15,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Terra Nobre</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="<? echo base_url('includes/css/bootstrap.min.css') ?>" type="text/css">
+    <link rel="stylesheet" href= <?php echo base_url('includes/css/bootstrap.min.css') ?> type="text/css">
 
     <!-- Custom Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href=<? echo base_url('includesfont-awesome/css/font-awesome.min.css');?> type="text/css">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="<? echo base_url('includes/css/magnific-popup.css') ?>" type="text/css">
+    <link rel="stylesheet" href=<? echo base_url('includes/css/magnific-popup.css') ?> type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href=<? echo base_url('includes/css/creative.css')?> type="text/css">
 
 
 
@@ -53,10 +53,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#page1">Sobre</a>
+                        <a class="page-scroll" href="#">Sobre</a>
                     </li>
-
-
 
                 </ul>
             </div>
@@ -68,10 +66,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <header>
         <div class="header-content">
             <div class="header-content-inner">
+			
                 <h1>Terra Nobre</h1>
                 <hr>
                 <p>Compra, Venda e Administração de imoveis</p>
-                <a href="#page2" class="btn btn-primary btn-xl page-scroll" >Conheça Nossos Serviços</a>
+                <a href="#" class="btn btn-primary " >Conheça Nossos Serviços</a>
+				
             </div>
         </div>
     </header>
@@ -119,19 +119,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </section>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src=<?echo base_url('includes/js/jquery.js')?>></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src=<?echo base_url('includes/js/bootstrap.min.js')?>></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/scrollreveal.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src=<?echo base_url('includes/js/scrollreveal.min.js')?></script>
+    <script src=<?echo base_url('includes/js/jquery.easing.min.js')?>></script>
+    <script src=<?echo base_url('includes/js/jquery.fittext.js')?>></script>
+    <script src=<?echo base_url('includes/js/jquery.magnific-popup.min.js')?>></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <script src=<?echo base_url('includes/js/creative.js')?>></script>
 
 </body>
 
