@@ -63,10 +63,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <header class="text-center">
         <div class="header-content">
             <div class="header-content-inner">
-			
+			<br />
                 <h1>Terra Nobre</h1>
                 <hr>
                 <p>Compra, Venda e Administração de imoveis</p>
