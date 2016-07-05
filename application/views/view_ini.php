@@ -1,13 +1,9 @@
 
-
-
-
-
-
     <header class="text-center">
         <div class="header-content">
             <div class="header-content-inner">
 			<br />
+        <div id="backimage">
                 <h1>Terra Nobre</h1>
                 <hr>
                 <p>Compra, Venda e Administração de imoveis</p>
@@ -18,7 +14,7 @@
     </header>
 
 
-    <section id="novos">
+<section id="novos">
 
   <div class="container-fluid">
     <div class="row">
@@ -32,7 +28,7 @@
   </div>
 
     </section>
-    
+    </div>
   
  
 
