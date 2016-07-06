@@ -1,6 +1,8 @@
 <div class="jumbotron">
     <h1>Imoveis</h1>
-    <p></p>
+    <p id="btn_select">
+     <a href="#" class="btn btn-primary btn-lg" role="button">Aluguel</a>   <a href="#" class="btn btn-primary btn-lg" role="button">Vendas</a>
+    </p>
 
 </div>
 <!--- Colocar Resultado do BD ness formato -->
