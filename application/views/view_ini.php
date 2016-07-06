@@ -8,7 +8,7 @@
                 <hr>
                 <div id="ini">
                 <p>Compra, Venda e Administração de imoveis</p>
-                <a href="#" class="btn btn-primary " >Conheça Nossos Serviços</a>
+                <a href="<?php echo site_url("imoveis");?>" class="btn btn-primary " >Conheça Nossos Serviços</a>
 				
                 </div>
             </div>
