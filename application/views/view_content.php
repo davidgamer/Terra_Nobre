@@ -15,9 +15,9 @@
                     <p>...</p>
                     <p>
 
-                        <a href="#" class="btn btn-primary" role="button">Button</a>
+                       
 
-                        <a href="#" class="btn btn-default" role="button">Button</a>
+                        <a href="#" class="btn btn-success" role="button">Button</a>
 
                     </p>
                 </div>
