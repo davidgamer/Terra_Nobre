@@ -1,5 +1,5 @@
 <div class="jumbotron">
-    <h1>Imoveis</h1>
+    <h1>Imóveis</h1>
     <p id="btn_select">
      <a href="#" class="btn btn-primary btn-lg" role="button">Aluguel</a>   <a href="#" class="btn btn-primary btn-lg" role="button">Vendas</a>
     </p>
